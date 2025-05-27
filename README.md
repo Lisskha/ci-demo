@@ -2,8 +2,8 @@
 
 Здесь собраны примеры настроек различных CI-систем:
 
-* CircleCI
-* Github Actions
-* Jenkins
+* CircleCI https://circleci.com/
+* Github Actions https://github.com/
+* Jenkins jenkins.io
 * Bitbucket Pipelines
-* Gitlab
+* Gitlab gitlab.com
