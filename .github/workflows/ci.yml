@@ -12,7 +12,6 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.9'
-          cache: 'pip'
       - run: pip install -r requirements.txt
       - run: | 
           ls -la
@@ -26,6 +25,5 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.9'
-          cache: 'pip'
       - run: pip install -r requirements.txt 
       - run: flake8 . --extend-exclude=dist,build --show-source --statistics
